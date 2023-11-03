@@ -34,9 +34,13 @@ Cara Menjalankan
 
 # ERD
 - ERD Logical
+   
 ![Logical](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/126859339/4bb8dbab-c531-4280-b389-d3267c7237fc)
+
 - Erd Relational
+  
 ![Relational_1](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/126859339/9001fe4d-111f-4e8f-9d79-7edb36fdde32)
+
 
 # Hirarki Class
 
@@ -45,8 +49,8 @@ Cara Menjalankan
 
 # SourceCode dan Penjelasan
 
-## Package Model
-## Model Classes
+##Package Model
+##Model Classes
 
 - GedungModel: Bertanggung jawab atas representasi data gedung, termasuk ID, nama, dan kapasitas. Kode berikut meerupakan kode yang mengatur logika dari metode yang dapat menampilkan, mencari, dan mengatur model JComboBox dengan data gedung dari database.
 ```java
@@ -687,12 +691,6 @@ public class PeminjamanModel extends Koneksi {
             preparedStatement.setDate(1, currentDate);
 
             int rowsAffected = preparedStatement.executeUpdate();
-
-            if (rowsAffected > 0) {
-                System.out.println("Status updated to 'Done' for reservations that have ended.");
-            } else {
-                System.out.println("No reservations to update.");
-            }
 
         } catch (SQLException ex) {
             displayErrors(ex);
