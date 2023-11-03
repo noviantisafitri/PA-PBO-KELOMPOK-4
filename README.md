@@ -49,8 +49,7 @@ Cara Menjalankan
 
 # SourceCode dan Penjelasan
 
-##Package Model
-##Model Classes
+## Package Model
 
 - GedungModel: Bertanggung jawab atas representasi data gedung, termasuk ID, nama, dan kapasitas. Kode berikut meerupakan kode yang mengatur logika dari metode yang dapat menampilkan, mencari, dan mengatur model JComboBox dengan data gedung dari database.
 ```java
@@ -1951,24 +1950,30 @@ Setiap komponen bekerja sama untuk menyediakan pengalaman pengguna yang lancar, 
 # Output
 Tampilan Login
 Sebagaimana dijelaskan sebelumnya, gambar ini menunjukkan tampilan login yang meminta pengguna untuk memasukkan nama pengguna dan kata sandi mereka. Hal ini untuk memastikan bahwa hanya pengguna terotorisasi yang dapat mengakses fitur aplikasi.
+ 
 ![image](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/121856489/bdb6bc9b-a03e-47ff-a1b5-52d37a95645d)
 
 
 Dashboard Utama
 merupakan tampilan setelah pengguna berhasil masuk, menampilkan dashboard atau menu utama. Ini bisa menunjukkan berbagai opsi yang tersedia bagi pengguna, seperti melihat daftar gedung yang dapat dipinjam, melakukan pemesanan gedung, atau mengakses riwayat peminjaman.
+
 ![image](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/121856489/a6b7d25d-56e2-4a72-b851-0cfd16ccd9af)
 
 Formulir Peminjaman Gedung
 Gambar ini menampilkan formulir yang harus diisi saat pengguna ingin meminjam gedung. Formulir ini meminta informasi seperti nama gedung, tanggal peminjaman, durasi, dan tujuan peminjaman.
+
 ![image](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/121856489/7a73293e-2a19-45f3-a656-740dd64374ca)
 
 
 Manajemen Gedung
 Bagi pengguna dengan peran administratif, seperti staff, gambar ini menunjukkan antarmuka untuk mengelola informasi gedung, termasuk menambahkan gedung baru, mengedit informasi gedung, atau menghapus gedung dari sistem.
+
 ![image](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/121856489/0206e0aa-ba51-47ce-ac2c-8208b8c17b08)
 
 
 Laporan dan Statistik
 Gambar ini menunjukkan history tentang peminjaman gedung. Ini bisa termasuk data seperti jumlah peminjaman per periode waktu, gedung yang paling sering dipinjam, atau tren lain yang berguna untuk analisis administratif.
-![image](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/121856489/28f6760a-d40b-4180-8800-89dd5bc1f39b)
+
+![image](https://github.com/noviantisafitri/PA-PBO-KELOMPOK-4/assets/121856489/838083a8-bc6e-4bb5-b798-ccb7fd285301)
+
 
